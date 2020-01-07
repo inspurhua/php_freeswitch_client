@@ -1,0 +1,29 @@
+{
+    "require":
+    {
+        "ext-pdo": "*",
+        "ext-redis": "*",
+        "ext-simplexml": "*",
+        "ext-json": "*",
+        "catfan/medoo": "^1.5",
+        "textalk/websocket": "^1.2",
+        "monolog/monolog": "^1.23",
+        "cboden/ratchet": "^0.4.1",
+        "swiftmailer/swiftmailer": "5.4.12"
+    },
+    "autoload":
+    {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
+    "config" : {
+        "secure-http": false
+    }
+}

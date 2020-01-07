@@ -1,0 +1,4 @@
+1 0 * * * sh /root/recordings.sh 
+*/20 * * * * sh /root/clearCache.sh 
+*/22 * * * * nohup /usr/local/php/bin/php /root/mon.php >> /root/a.log &
+*/1 * * * * /usr/local/php/bin/php /root/check.php

@@ -1,2 +1,3 @@
-# php_freeswitch_client
-php eventsocket with freeswitch
+# eventsocket
+
+freeswitch eventsocket 服务

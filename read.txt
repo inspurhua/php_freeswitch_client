@@ -1,0 +1,8 @@
+/usr/local/freeswitch/conf/autoload_configs/switch.conf.xml
+/usr/local/freeswitch/scripts/config.lua
+/etc/odbc.ini
+/etc/hosts
+/root/src/Config.php
+/root/erp.jar
+
+修改数据库和redis配置
